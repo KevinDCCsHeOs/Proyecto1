@@ -129,7 +129,7 @@ public class Ejercicios {
 		return pagar;
 	}
 	public static String pagosUniversidad(String nombre, String cat, double prom) {
-		double pago=0,des;
+		double pago=0,des=0;
 		cat=cat.toUpperCase();
 		switch(cat) {
 		case "A":
@@ -177,7 +177,7 @@ public class Ejercicios {
 			}
 			break;
 		}
-		return "Nombre:"+nombre+"\n"+"Pago sin descuento";
+		return "Nombre:"+nombre+"\n"+"Pago sin descuento"+des+"\n El pago total es: "+pago;
 	}
 	public static void Triangulo(int filas) {
 		String cadena=" ";
